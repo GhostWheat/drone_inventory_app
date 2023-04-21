@@ -3,3 +3,4 @@ rangers_env
 migrations
 __pycache__
 .vscode
+.gitignore
