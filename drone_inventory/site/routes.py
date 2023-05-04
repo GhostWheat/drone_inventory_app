@@ -13,7 +13,7 @@ def home():
     print("ooga booga in the terminal")
     return render_template('index.html')
 
-@site.route('/prof', methods = ['GET','POST'])
+@site.route('/profile', methods = ['GET','POST'])
 @login_required
 def profile():
     my_drone = DroneForm()
